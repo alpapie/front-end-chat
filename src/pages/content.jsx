@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Content({ Showmenu, setpopsign }) {
+    const [Colabs1, setColabs1] = useState(false);  
+    const [Colabs2, setColabs2] = useState(false);  
+    const [Colabs3, setColabs3] = useState(false);  
+    const [Colabs4, setColabs4] = useState(false);  
+    const [Colabs5, setColabs5] = useState(false);  
     return (
         <>
             <div class="banner-two-area bg-deam pt--140 pt_md--70">
@@ -845,61 +850,69 @@ export default function Content({ Showmenu, setpopsign }) {
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <button class={!Colabs1?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs1} aria-controls="collapseOne" onClick={()=>{
+                                                setColabs1(!Colabs1)
+                                            }}>
                                                 What is openup content writing tool?
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs1 ? "accordion-collapse collapse" : "accordion-collapse collapsingshow" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class={!Colabs2?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs2} aria-controls="collapseOne" onClick={()=>{
+                                                setColabs2(!Colabs2)
+                                            }}>
                                                 what languages does it supports?
                                             </button>
                                         </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs2 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                What is sEO wirting ai and how do i use it?
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class={!Colabs3?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs3} aria-controls="collapseOne" onClick={()=>{
+                                                setColabs3(!Colabs3)
+                                            }}>
+                                                 What is sEO wirting ai and how do i use it?
                                             </button>
                                         </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs3 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingFour">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                what languages does it supports?
-                                            </button>
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class={!Colabs4?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs4} aria-controls="collapseOne" onClick={()=>{
+                                                setColabs4(!Colabs4)
+                                            }}>
+                                            what languages does it supports?                                            </button>
                                         </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs4 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingFive">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                Does Openup to write long articles?
-                                            </button>
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class={!Colabs5?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs5} aria-controls="collapseOne" onClick={()=>{
+                                                setColabs5(!Colabs5)
+                                            }}>
+                                            Does Openup to write long articles?                                           </button>
                                         </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs5 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
