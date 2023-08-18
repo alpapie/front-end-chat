@@ -609,13 +609,13 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="tab-area-pricing-two mt--20">
                         <ul class="nav nav-tabs pricing-button-one two" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class=" active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Monthly Pricing</button>
+                                <button class=" active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Formule gratuite </button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Annual Pricing</button>
+                                <button class="" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Version Pro</button>
                             </li>
                             <li class="save-badge">
-                                <span>SAVE 25%</span>
+{/*                                 <span>SAVE 25%</span> */}
                             </li>
                         </ul>
                         <div class="tab-content mt--20" id="myTabContent">
@@ -624,14 +624,14 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
-                                                <span class="top">Basic</span>
+                                                <span class="top">Basique</span>
                                                 <div class="date-use">
-                                                    <h4 class="title">$Free</h4>
-                                                    <span>/month</span>
+                                                    <h4 class="title">€ gratuit</h4>
+                                                    <span>/mois</span>
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
+                                                <p class="para">Discutez gratuitement avec votre fichier PDF, mais avec une limite journalière. <br /> mais avec une limite journalière.</p>
 
                                                 <div class="check-wrapper">
                                                     <div class="check-area">
@@ -660,33 +660,33 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <div class="head">
                                                 <span class="top">Diamond</span>
                                                 <div class="date-use">
-                                                    <h4 class="title">$399</h4>
+                                                    <h4 class="title">10€</h4>
                                                     <span>/month</span>
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
+                                                <p class="para">Discutez avec vos fichiers pdf sans <br /> limite pendant tout le mois</p>
 
                                                 <div class="check-wrapper">
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>60,000 Monthly Word Limit</p>
+                                                        <p>50 PDF/JOUR</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>60+ Templates</p>
+                                                        <p>500 Questions / Jours</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>All types of content</p>
+                                                        <p>Historiques conservé 90 jours</p>
                                                     </div>
 
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>60+ Languages</p>
+                                                        <p>50 MO max/ PDF</p>
                                                     </div>
                                                 </div>
-                                                <a href="#" class="pricing-btn">Get Started</a>
+                                                <a href="#" class="pricing-btn">Démarrer</a>
                                             </div>
                                         </div>
                                     </div>
