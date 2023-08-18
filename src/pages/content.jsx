@@ -13,18 +13,31 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="banner-two-inner-content pb--180 pb_md--180 pb_sm--100 pt--200 pt_md--100 pt_sm--20">
-                                <span class="pre-title">Welcome to Openup</span>
+                                <span class="pre-title">Bienvenue sur Gopdfai</span>
                                 <h1 class="title">
-                                    Best AI Writer for <br />
-                                    Creating <span>Blog Articles.</span>
+                                    Meilleure IA pour  <br />
+                                Discuter <span>Avec vos fichiers Pdf</span>
                                 </h1>
                                 <p class="disc">
-                                    Create SEO-optimized and plagiarism-free contentfor your blogs, ads, emails, and website 10X faster.
+                                 Discuter avec n'importe quel fichier PDF en le téléchargeant et en initiant une conversation.
                                 </p>
+                                <p class="disc">
+                                Poser des questions spécifiques ou générales sur le PDF et obtenir des réponses instantanées.
+                                </p>
+                                <p class="disc">
+                                Analyser le texte du fichier PDF et résumer les informations pertinentes
+                                </p>
+                                <p class="disc">
+                                Parler à votre PDF pour résumer rapidement et extraire des informations.
+                                </p>
+                                <p class="disc">
+                                Améliorer votre expérience d'apprentissage avec GoPDF en comprenant sans effort les manuels, les polycopiés et les présentations.
+                                </p>
+                                 
                                 <form action="#">
                                     <div class="input-area">
-                                        <input type="email" placeholder="Enter your mail address" required />
-                                        <button>Sign Up Free <i class="fa-regular fa-arrow-right"></i></button>
+                                        <input type="email" placeholder="Entrer votre adresse email" required />
+                                        <button>Connectez-vous<i class="fa-regular fa-arrow-right"></i></button>
                                     </div>
                                 </form>
                                 <div class="rating-area">
@@ -35,7 +48,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                         <img src="assets/images/banner/star.svg" alt="start" loading="lazy" />
                                         <img src="assets/images/banner/star.svg" alt="start" loading="lazy" />
                                     </div>
-                                    <p class="disc">Based on 10,000+ reviews on</p>
+                                    <p class="disc">Basé sur plus de 10 000 avis positifs</p>
                                 </div>
                                 <div class="brand-arae">
                                     <img src="assets/images/banner/brand/01.png" alt="brand" loading="lazy" />
@@ -57,10 +70,10 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="title-conter-area">
-                                <span class="pre-title-bg">How It Work</span>
+                                <span class="pre-title-bg">Comment ça fonctionne</span>
                                 <h2 class="title">
-                                    Get Unique Content In <br />
-                                    Three Easy Steps
+                                Discutez avec votre fichier PDF  <br />
+                                en trois étapes.
                                 </h2>
                             </div>
                         </div>
@@ -80,9 +93,9 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     </svg>
                                                 </div>
                                                 <div class="info-wrapper">
-                                                    <h5 class="title">Describe</h5>
+                                                    <h5 class="title">Connectez-vous gratuitement</h5>
                                                     <p class="disc">
-                                                        Enter the title of your article and <br /> 1-2 sentences to generate it.
+                                                    Entrez votre adresse e-mail et  <br /> cliquez sur Connectez-vous.
                                                     </p>
                                                 </div>
                                             </div>
@@ -90,16 +103,15 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <span class="number">02</span>
                                                 <div class="icon">
 
-                                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect width="40" height="40" rx="4" fill="#BDE3FF" fill-opacity="0.4" />
-                                                        <path d="M30.5 9.5C31.2969 9.5 32 10.2031 32 11V27.5C32 29.1875 30.6406 30.5 29 30.5H11C9.3125 30.5 8 29.1875 8 27.5V14C8 13.2031 8.65625 12.5 9.5 12.5H11V26.75C11 27.1719 11.3281 27.5 11.75 27.5C12.125 27.5 12.5 27.1719 12.5 26.75V11C12.5 10.2031 13.1562 9.5 14 9.5H30.5ZM20.75 27.5C21.125 27.5 21.5 27.1719 21.5 26.75C21.5 26.375 21.125 26 20.75 26H16.25C15.8281 26 15.5 26.375 15.5 26.75C15.5 27.1719 15.8281 27.5 16.25 27.5H20.75ZM20.75 23C21.125 23 21.5 22.6719 21.5 22.25C21.5 21.875 21.125 21.5 20.75 21.5H16.25C15.8281 21.5 15.5 21.875 15.5 22.25C15.5 22.6719 15.8281 23 16.25 23H20.75ZM28.25 27.5C28.625 27.5 29 27.1719 29 26.75C29 26.375 28.625 26 28.25 26H23.75C23.3281 26 23 26.375 23 26.75C23 27.1719 23.3281 27.5 23.75 27.5H28.25ZM28.25 23C28.625 23 29 22.6719 29 22.25C29 21.875 28.625 21.5 28.25 21.5H23.75C23.3281 21.5 23 21.875 23 22.25C23 22.6719 23.3281 23 23.75 23H28.25ZM29 17.75V13.25C29 12.875 28.625 12.5 28.25 12.5H16.25C15.8281 12.5 15.5 12.875 15.5 13.25V17.75C15.5 18.1719 15.8281 18.5 16.25 18.5H28.25C28.625 18.5 29 18.1719 29 17.75Z" fill="#083A5E" />
+                                                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect width="40" height="40" rx="4" fill="#CBF3E7" />
+                                                        <path d="M16 22.625C16 23.2812 16.4688 23.75 17.125 23.75H25V29.75C25 31.0156 23.9688 32 22.75 32H9.25C7.98438 32 7 31.0156 7 29.75V10.25C7 9.03125 7.98438 8 9.25 8H17.5V14C17.5 14.8438 18.1562 15.5 19 15.5H25V21.5H17.125C16.4688 21.5 16 22.0156 16 22.625ZM19 8L25 14H19V8ZM33.625 21.8281C34.0938 22.2969 34.0938 23 33.625 23.4219L29.875 27.1719C29.4531 27.6406 28.75 27.6406 28.3281 27.1719C28.0938 26.9844 28 26.7031 28 26.375C28 26.0938 28.0938 25.8125 28.3281 25.625L30.1562 23.75H25V21.5H30.1562L28.2812 19.6719C27.8125 19.25 27.8125 18.5469 28.2812 18.0781C28.7031 17.6562 29.4062 17.6562 29.875 18.0781L33.625 21.8281Z" fill="#33B89F" />
                                                     </svg>
-
                                                 </div>
                                                 <div class="info-wrapper">
-                                                    <h5 class="title">Generate</h5>
+                                                    <h5 class="title">Uploadez votre fichier PDF</h5>
                                                     <p class="disc">
-                                                        Our AI article generator uses art language <br /> models to create unique articles.
+                                                        Cliquez sur new pdf et  <br /> Ajoutez votre fichier pdf.
                                                     </p>
                                                 </div>
                                             </div>
@@ -112,9 +124,9 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     </svg>
                                                 </div>
                                                 <div class="info-wrapper">
-                                                    <h5 class="title">Edit and Export</h5>
+                                                    <h5 class="title">Discutez avec votre fichier PDF</h5>
                                                     <p class="disc">
-                                                        Edit and verify article generation results. <br /> Export in different formats.
+                                                    Cliquez sur 'Envoyer le message' pour <br />  poser des questions concernant votre fichier.
                                                     </p>
                                                 </div>
                                             </div>
@@ -131,17 +143,17 @@ export default function Content({ Showmenu, setpopsign }) {
                     </div>
                 </div>
             </div>
-
+            
             <div class="rts-feature-tab-area home-two rts-section-gapTop">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <span class="bg-text">New</span>
+                            <span class="bg-text">Nouvelles </span>
                             <div class="title-conter-area">
-                                <span class="pre-title-bg">Features</span>
+                                <span class="pre-title-bg">Fonctionnalités</span>
                                 <h2 class="title">
-                                    What can you create <br />
-                                    with Openup?
+                                Quelles sont les nouvelles  <br />
+                                fonctionnalités à venir ?
                                 </h2>
                             </div>
                         </div>
@@ -232,28 +244,28 @@ export default function Content({ Showmenu, setpopsign }) {
                                                         <path d="M12.7148 6.43359C18.75 6.78516 23.9648 12 24.3164 17.9766C24.375 18.7383 23.7891 19.4414 23.0273 19.5C22.9688 19.5 22.9688 19.5 22.9102 19.5C22.207 19.5 21.5625 18.9141 21.5625 18.1523C21.2109 13.5234 17.168 9.48047 12.5391 9.1875C11.7773 9.1875 11.1914 8.48438 11.25 7.72266C11.25 6.96094 11.9531 6.375 12.7148 6.43359ZM13.125 0.75C22.3828 0.75 30 8.36719 30 17.625C30 18.6797 29.1211 19.5 28.125 19.5C27.0703 19.5 26.25 18.6797 26.25 17.625C26.25 10.418 20.332 4.5 13.125 4.5C12.0703 4.5 11.25 3.67969 11.25 2.625C11.25 1.62891 12.0703 0.75 13.125 0.75ZM10.0781 14.0508C14.4727 14.9297 17.6953 19.3242 16.6406 24.1289C15.9961 27.293 13.418 29.8711 10.2539 30.5156C4.80469 31.6875 0 27.5273 0 22.3125V7.78125C0 7.01953 0.585938 6.43359 1.34766 6.43359H4.16016C4.98047 6.43359 5.56641 7.01953 5.56641 7.78125V22.2539C5.56641 23.7188 6.85547 25.0078 8.4375 25.0078C9.96094 25.0078 11.25 23.7773 11.25 22.2539C11.25 21.082 10.4297 20.0273 9.375 19.6758C8.84766 19.5 8.4375 19.0312 8.4375 18.3867V15.457C8.4375 14.5781 9.19922 13.875 10.0781 14.0508Z" fill="white" />
                                                     </svg>
 
-                                                    Blog Posts
+                                                    Possibilité de discuter avec tous types de fichiers.
                                                 </button>
                                                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                                     <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M27 2V20C27 20.8438 26.2969 21.5 25.5 21.5C24.6562 21.5 24 20.8438 24 20V2C24 1.20312 24.6562 0.5 25.5 0.5C26.2969 0.5 27 1.20312 27 2ZM2.95312 7.95312L22.5 2V20L16.3125 18.1719C15.8438 20.0938 14.0625 21.5 12 21.5C9.46875 21.5 7.5 19.4844 7.5 17C7.5 16.4844 7.54688 16.0156 7.73438 15.5469L2.95312 14.0938C2.95312 14.8906 2.29688 15.5 1.5 15.5C0.65625 15.5 0 14.8438 0 14V8C0 7.20312 0.65625 6.5 1.5 6.5C2.29688 6.5 2.95312 7.15625 2.95312 7.95312ZM14.1562 17.5156L9.89062 16.2031C9.79688 16.4375 9.75 16.7188 9.75 17C9.75 18.2656 10.7344 19.25 12 19.25C13.0312 19.25 13.9688 18.5 14.1562 17.5156Z" fill="#3F3EED" />
                                                     </svg>
-                                                    SEO Articles</button>
+                                                    Possibilité de pouvoir uploader plusieurs fichiers PDF et de les comparer.</button>
                                                 <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                                                     <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M22.5 0.5C23.2969 0.5 24 1.20312 24 2V18.5C24 20.1875 22.6406 21.5 21 21.5H3C1.3125 21.5 0 20.1875 0 18.5V5C0 4.20312 0.65625 3.5 1.5 3.5H3V17.75C3 18.1719 3.32812 18.5 3.75 18.5C4.125 18.5 4.5 18.1719 4.5 17.75V2C4.5 1.20312 5.15625 0.5 6 0.5H22.5ZM12.75 18.5C13.125 18.5 13.5 18.1719 13.5 17.75C13.5 17.375 13.125 17 12.75 17H8.25C7.82812 17 7.5 17.375 7.5 17.75C7.5 18.1719 7.82812 18.5 8.25 18.5H12.75ZM12.75 14C13.125 14 13.5 13.6719 13.5 13.25C13.5 12.875 13.125 12.5 12.75 12.5H8.25C7.82812 12.5 7.5 12.875 7.5 13.25C7.5 13.6719 7.82812 14 8.25 14H12.75ZM20.25 18.5C20.625 18.5 21 18.1719 21 17.75C21 17.375 20.625 17 20.25 17H15.75C15.3281 17 15 17.375 15 17.75C15 18.1719 15.3281 18.5 15.75 18.5H20.25ZM20.25 14C20.625 14 21 13.6719 21 13.25C21 12.875 20.625 12.5 20.25 12.5H15.75C15.3281 12.5 15 12.875 15 13.25C15 13.6719 15.3281 14 15.75 14H20.25ZM21 8.75V4.25C21 3.875 20.625 3.5 20.25 3.5H8.25C7.82812 3.5 7.5 3.875 7.5 4.25V8.75C7.5 9.17188 7.82812 9.5 8.25 9.5H20.25C20.625 9.5 21 9.17188 21 8.75Z" fill="#3F3EED" />
                                                     </svg>
-                                                    News Articles</button>
+                                                    Personnalisation </button>
                                                 <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                                                     <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M29.2031 5.42188C29.6719 5.60938 30 6.03125 30 6.5C30 7.01562 29.6719 7.4375 29.2031 7.625L15.9844 12.3594C15.3281 12.5938 14.625 12.5938 13.9688 12.3594L5.0625 9.17188C4.5 9.78125 4.07812 10.5312 3.89062 11.375C4.21875 11.6094 4.5 12.0312 4.5 12.5C4.5 12.9688 4.26562 13.3906 3.9375 13.6719L5.0625 20.6562C5.15625 21.125 4.78125 21.5 4.35938 21.5H1.59375C1.17188 21.5 0.796875 21.125 0.890625 20.6562L2.01562 13.6719C1.6875 13.3906 1.5 12.9688 1.5 12.5C1.5 11.8906 1.875 11.375 2.39062 11.1406C2.57812 10.2031 3 9.35938 3.5625 8.60938L0.75 7.625C0.28125 7.4375 0 7.01562 0 6.5C0 6.03125 0.28125 5.60938 0.75 5.42188L13.9219 0.6875C14.5781 0.453125 15.2812 0.453125 15.9375 0.6875L29.2031 5.42188ZM16.4531 13.7656L23.2969 11.3281L24 18.0312C24 19.9531 19.9219 21.5 15 21.5C9.98438 21.5 6 19.9531 6 18.0312L6.65625 11.3281L13.5 13.7656C13.9688 13.9531 14.4844 14 15 14C15.4688 14 15.9844 13.9531 16.4531 13.7656Z" fill="#3F3EED" />
                                                     </svg>
-                                                    College Essays</button>
-                                                <button class="nav-link" id="v-pills-settingsf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsf" type="button" role="tab" aria-controls="v-pills-settingsf" aria-selected="false">
+                                                    Version de l'application iOS et Android.</button>
+                                                {/* <button class="nav-link" id="v-pills-settingsf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsf" type="button" role="tab" aria-controls="v-pills-settingsf" aria-selected="false">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M22.9688 1.92188C24 2.95312 24 4.59375 22.9688 5.625L21.5625 7.03125L16.9688 2.4375L18.375 1.03125C19.4062 0 21.0469 0 22.0781 1.03125L22.9688 1.92188ZM8.0625 11.3438L15.8906 3.51562L20.4844 8.10938L12.6562 15.9375C12.375 16.2188 12 16.4531 11.625 16.5938L7.45312 17.9531C7.03125 18.0938 6.60938 18 6.32812 17.6719C6 17.3906 5.90625 16.9219 6.04688 16.5469L7.40625 12.375C7.54688 12 7.78125 11.625 8.0625 11.3438ZM9 3C9.79688 3 10.5 3.70312 10.5 4.5C10.5 5.34375 9.79688 6 9 6H4.5C3.65625 6 3 6.70312 3 7.5V19.5C3 20.3438 3.65625 21 4.5 21H16.5C17.2969 21 18 20.3438 18 19.5V15C18 14.2031 18.6562 13.5 19.5 13.5C20.2969 13.5 21 14.2031 21 15V19.5C21 21.9844 18.9844 24 16.5 24H4.5C1.96875 24 0 21.9844 0 19.5V7.5C0 5.01562 1.96875 3 4.5 3H9Z" fill="#3F3EED" />
                                                     </svg>
-                                                    Press Releases</button>
+                                                    Press Releases</button> */}
                                             </div>
                                         </div>
                                     </div>
@@ -383,10 +395,11 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="title-conter-area">
-                                <span class="pre-title-bg">Our Clients</span>
+                                <span class="pre-title-bg">Nos clients</span>
                                 <h2 class="title">
-                                    You're In Good Company <br />
-                                    With Openup
+                                Vous êtes bien entouré
+                                     <br />
+                                     avec Gopdfai
                                 </h2>
                             </div>
                         </div>
@@ -403,7 +416,32 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 <p class="disc">
-                                    I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
+                                J'ai utilisé Gopdfai, c'était simple, rapide et efficace.
+                                </p>
+                                <div class="authore-area">
+                                    <div class="author">
+                                        <img src="assets/images/team/01.png" alt="team" />
+                                        <div class="info">
+                                            <p>Nahim</p>
+                                            <span>Développeur AI</span>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/team/brand/01.png" alt="images" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="single-team-area">
+                                <img src="assets/images/team/brand/quote.png" alt="images" loading="lazy" class="quote" />
+                                <div class="star">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p class="disc">
+                                Super IA pour discuter avec un fichier PDF
                                 </p>
                                 <div class="authore-area">
                                     <div class="author">
@@ -428,39 +466,14 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 <p class="disc">
-                                    I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
+                                Vraiment très efficace et rapide..
                                 </p>
                                 <div class="authore-area">
                                     <div class="author">
                                         <img src="assets/images/team/01.png" alt="team" />
                                         <div class="info">
-                                            <p>Samuel</p>
-                                            <span>Blogger</span>
-                                        </div>
-                                    </div>
-                                    <img src="assets/images/team/brand/01.png" alt="images" loading="lazy" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="single-team-area">
-                                <img src="assets/images/team/brand/quote.png" alt="images" loading="lazy" class="quote" />
-                                <div class="star">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                                <p class="disc">
-                                    I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
-                                </p>
-                                <div class="authore-area">
-                                    <div class="author">
-                                        <img src="assets/images/team/01.png" alt="team" />
-                                        <div class="info">
-                                            <p>Samuel</p>
-                                            <span>Blogger</span>
+                                            <p>Aicha</p>
+                                            <span>Copywritter</span>
                                         </div>
                                     </div>
                                     <img src="assets/images/team/brand/01.png" alt="images" loading="lazy" />
