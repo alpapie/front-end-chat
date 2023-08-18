@@ -846,7 +846,7 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="title-conter-area">
-                                <span class="pre-title-bg">Faq's</span>
+                                <span class="pre-title-bg">FAQ</span>
                                 <h2 class="title">
                                     Questions About our OpenUp? <br />
                                     We have Answers!
