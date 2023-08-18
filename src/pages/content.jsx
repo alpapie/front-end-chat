@@ -726,42 +726,42 @@ export default function Content({ Showmenu, setpopsign }) {
                                     </div>
                                 </div>
                             </div> */}
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <div class="row g-5 mt--10">
-                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                                        <div class="single-pricing-single-two">
-                                            <div class="head">
-                                                <span class="top">Basic</span>
-                                                <div class="date-use">
-                                                    <h4 class="title">$Free</h4>
-                                                    <span>/month</span>
-                                                </div>
-                                            </div>
-                                            <div class="body">
-                                                <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
+                            // <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            //     <div class="row g-5 mt--10">
+                            //         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                            //             <div class="single-pricing-single-two">
+                            //                 <div class="head">
+                            //                     <span class="top">Basic</span>
+                            //                     <div class="date-use">
+                            //                         <h4 class="title">$Free</h4>
+                            //                         <span>/month</span>
+                            //                     </div>
+                            //                 </div>
+                            //                 <div class="body">
+                            //                     <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
 
-                                                <div class="check-wrapper">
-                                                    <div class="check-area">
-                                                        <i class="fa-solid fa-check"></i>
-                                                        <p>10,000 Monthly Word Limit</p>
-                                                    </div>
-                                                    <div class="check-area">
-                                                        <i class="fa-solid fa-check"></i>
-                                                        <p>10+ Templates</p>
-                                                    </div>
-                                                    <div class="check-area">
-                                                        <i class="fa-solid fa-check"></i>
-                                                        <p>All types of content</p>
-                                                    </div>
-                                                    <div class="check-area">
-                                                        <i class="fa-solid fa-check"></i>
-                                                        <p>10+ Languages</p>
-                                                    </div>
-                                                </div>
-                                                <a href="#" class="pricing-btn">Get Started</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                            //                     <div class="check-wrapper">
+                            //                         <div class="check-area">
+                            //                             <i class="fa-solid fa-check"></i>
+                            //                             <p>10,000 Monthly Word Limit</p>
+                            //                         </div>
+                            //                         <div class="check-area">
+                            //                             <i class="fa-solid fa-check"></i>
+                            //                             <p>10+ Templates</p>
+                            //                         </div>
+                            //                         <div class="check-area">
+                            //                             <i class="fa-solid fa-check"></i>
+                            //                             <p>All types of content</p>
+                            //                         </div>
+                            //                         <div class="check-area">
+                            //                             <i class="fa-solid fa-check"></i>
+                            //                             <p>10+ Languages</p>
+                            //                         </div>
+                            //                     </div>
+                            //                     <a href="#" class="pricing-btn">Get Started</a>
+                            //                 </div>
+                            //             </div>
+                            //         </div>
 {/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two active">
                                             <div class="head">
