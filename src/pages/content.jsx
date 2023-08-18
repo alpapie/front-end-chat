@@ -762,7 +762,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+{/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two active">
                                             <div class="head">
                                                 <span class="top">Diamond</span>
@@ -795,7 +795,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <a href="#" class="pricing-btn">Get Started</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 {/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
