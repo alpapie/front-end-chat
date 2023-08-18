@@ -597,10 +597,10 @@ export default function Content({ Showmenu, setpopsign }) {
                     <div class="row">
                         <div class="col-lgl-12">
                             <div class="title-conter-area">
-                                <span class="pre-title-bg">Pricing Plane</span>
+                                <span class="pre-title-bg">Plan de tarification</span>
                                 <h2 class="title">
-                                    Ready to Get Started? <br />
-                                    We'll Keep You Under Budget
+                                   Prêt à commencer ? <br />
+                                    Nous vous maintiendrons dans le budget.
                                 </h2>
                             </div>
                         </div>
