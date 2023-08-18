@@ -636,22 +636,22 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <div class="check-wrapper">
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>10,000 Monthly Word Limit</p>
+                                                        <p>1 PDF/JOUR</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>10+ Templates</p>
+                                                        <p>10 Questions/ jour</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>All types of content</p>
+                                                        <p>Historiques Conservé 90 jours</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>10+ Languages</p>
+                                                        <p>10 Mo MAx/ PDF</p>
                                                     </div>
                                                 </div>
-                                                <a href="#" class="pricing-btn">Get Started</a>
+                                                <a href="#" class="pricing-btn">Démarrer</a>
                                             </div>
                                         </div>
                                     </div>
@@ -674,7 +674,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
-                                                        <p>500 Questions / Jours</p>
+                                                        <p>500 Questions / Jour</p>
                                                     </div>
                                                     <div class="check-area">
                                                         <i class="fa-solid fa-check"></i>
@@ -690,7 +690,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+{/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
                                                 <span class="top">Silver</span>
@@ -698,8 +698,8 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     <h4 class="title">$199</h4>
                                                     <span>/month</span>
                                                 </div>
-                                            </div>
-                                            <div class="body">
+                                            </div> */}
+{/*                                             <div class="body">
                                                 <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
 
                                                 <div class="check-wrapper">
@@ -725,7 +725,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <div class="row g-5 mt--10">
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
