@@ -848,8 +848,9 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">FAQ</span>
                                 <h2 class="title">
-                                    Questions About our OpenUp? <br />
-                                    We have Answers!
+                                   Des questions concernant notre initiative OpenUp ?
+<br />
+                                 Nous avons des réponses ! 
                                 </h2>
                                 <p class="disc">
                                     please feel free to reach out to us. We are always happy to assist you and provide any additional.
