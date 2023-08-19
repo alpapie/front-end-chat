@@ -17,7 +17,7 @@ export default function Footer() {
                                     </div>
                                     <div class="body">
                                         <p class="dsic mb--25">
-                                            Openup is an artificial intelligence trained to automate important tasks such writing optimized product descriptions.
+                                           Gopdfai est une intelligence artificielle qui permet de discuter avec n'importe quel fichier PDF et d'en apprendre plus sur le fichier en un rien de temps.
                                         </p>
                                         <div class="social-area-one">
                                             <ul>
