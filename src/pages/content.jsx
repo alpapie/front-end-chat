@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Content({ Showmenu, setpopsign }) {
-    const [Colabs1, setColabs1] = useState(false);  
-    const [Colabs2, setColabs2] = useState(false);  
-    const [Colabs3, setColabs3] = useState(false);  
-    const [Colabs4, setColabs4] = useState(false);  
-    const [Colabs5, setColabs5] = useState(false);  
+    const [Colabs1, setColabs1] = useState(false);
+    const [Colabs2, setColabs2] = useState(false);
+    const [Colabs3, setColabs3] = useState(false);
+    const [Colabs4, setColabs4] = useState(false);
+    const [Colabs5, setColabs5] = useState(false);
     return (
         <>
             <div class="banner-two-area bg-deam pt--140 pt_md--70">
@@ -16,24 +16,24 @@ export default function Content({ Showmenu, setpopsign }) {
                                 <span class="pre-title">Bienvenue sur Gopdfai</span>
                                 <h1 class="title">
                                     Meilleure IA pour  <br />
-                                Discuter <span>Avec vos fichiers Pdf</span>
+                                    Discuter <span>Avec vos fichiers Pdf</span>
                                 </h1>
                                 <p class="disc">
-                                 Discuter avec n'importe quel fichier PDF en le téléchargeant et en initiant une conversation.
+                                    Discuter avec n'importe quel fichier PDF en le téléchargeant et en initiant une conversation.
                                 </p>
                                 <p class="disc">
-                                Poser des questions spécifiques ou générales sur le PDF et obtenir des réponses instantanées.
+                                    Poser des questions spécifiques ou générales sur le PDF et obtenir des réponses instantanées.
                                 </p>
                                 <p class="disc">
-                                Analyser le texte du fichier PDF et résumer les informations pertinentes
+                                    Analyser le texte du fichier PDF et résumer les informations pertinentes
                                 </p>
                                 <p class="disc">
-                                Parler à votre PDF pour résumer rapidement et extraire des informations.
+                                    Parler à votre PDF pour résumer rapidement et extraire des informations.
                                 </p>
                                 <p class="disc">
-                                Améliorer votre expérience d'apprentissage avec GoPDF en comprenant sans effort les manuels, les polycopiés et les présentations.
+                                    Améliorer votre expérience d'apprentissage avec GoPDF en comprenant sans effort les manuels, les polycopiés et les présentations.
                                 </p>
-                                 
+
                                 <form action="#">
                                     <div class="input-area">
                                         <input type="email" placeholder="Entrer votre adresse email" required />
@@ -72,8 +72,8 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">Comment ça fonctionne</span>
                                 <h2 class="title">
-                                Discutez avec votre fichier PDF  <br />
-                                en trois étapes.
+                                    Discutez avec votre fichier PDF  <br />
+                                    en trois étapes.
                                 </h2>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <div class="info-wrapper">
                                                     <h5 class="title">Connectez-vous gratuitement</h5>
                                                     <p class="disc">
-                                                    Entrez votre adresse e-mail et  <br /> cliquez sur Connectez-vous.
+                                                        Entrez votre adresse e-mail et  <br /> cliquez sur Connectez-vous.
                                                     </p>
                                                 </div>
                                             </div>
@@ -103,7 +103,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <span class="number">02</span>
                                                 <div class="icon">
 
-                                                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <rect width="40" height="40" rx="4" fill="#CBF3E7" />
                                                         <path d="M16 22.625C16 23.2812 16.4688 23.75 17.125 23.75H25V29.75C25 31.0156 23.9688 32 22.75 32H9.25C7.98438 32 7 31.0156 7 29.75V10.25C7 9.03125 7.98438 8 9.25 8H17.5V14C17.5 14.8438 18.1562 15.5 19 15.5H25V21.5H17.125C16.4688 21.5 16 22.0156 16 22.625ZM19 8L25 14H19V8ZM33.625 21.8281C34.0938 22.2969 34.0938 23 33.625 23.4219L29.875 27.1719C29.4531 27.6406 28.75 27.6406 28.3281 27.1719C28.0938 26.9844 28 26.7031 28 26.375C28 26.0938 28.0938 25.8125 28.3281 25.625L30.1562 23.75H25V21.5H30.1562L28.2812 19.6719C27.8125 19.25 27.8125 18.5469 28.2812 18.0781C28.7031 17.6562 29.4062 17.6562 29.875 18.0781L33.625 21.8281Z" fill="#33B89F" />
                                                     </svg>
@@ -126,7 +126,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <div class="info-wrapper">
                                                     <h5 class="title">Discutez avec votre fichier PDF</h5>
                                                     <p class="disc">
-                                                    Cliquez sur 'Envoyer le message' pour <br />  poser des questions concernant votre fichier.
+                                                        Cliquez sur 'Envoyer le message' pour <br />  poser des questions concernant votre fichier.
                                                     </p>
                                                 </div>
                                             </div>
@@ -143,7 +143,7 @@ export default function Content({ Showmenu, setpopsign }) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="rts-feature-tab-area home-two rts-section-gapTop">
                 <div class="container">
                     <div class="row">
@@ -152,8 +152,8 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">Fonctionnalités</span>
                                 <h2 class="title">
-                                Quelles sont les nouvelles  <br />
-                                fonctionnalités à venir ?
+                                    Quelles sont les nouvelles  <br />
+                                    fonctionnalités à venir ?
                                 </h2>
                             </div>
                         </div>
@@ -397,9 +397,9 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">Nos clients</span>
                                 <h2 class="title">
-                                Vous êtes bien entouré
-                                     <br />
-                                     avec Gopdfai
+                                    Vous êtes bien entouré
+                                    <br />
+                                    avec Gopdfai
                                 </h2>
                             </div>
                         </div>
@@ -416,7 +416,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 <p class="disc">
-                                J'ai utilisé Gopdfai, c'était simple, rapide et efficace.
+                                    J'ai utilisé Gopdfai, c'était simple, rapide et efficace.
                                 </p>
                                 <div class="authore-area">
                                     <div class="author">
@@ -441,7 +441,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 <p class="disc">
-                                Super IA pour discuter avec un fichier PDF
+                                    Super IA pour discuter avec un fichier PDF
                                 </p>
                                 <div class="authore-area">
                                     <div class="author">
@@ -466,7 +466,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
                                 <p class="disc">
-                                Vraiment très efficace et rapide..
+                                    Vraiment très efficace et rapide..
                                 </p>
                                 <div class="authore-area">
                                     <div class="author">
@@ -589,9 +589,6 @@ export default function Content({ Showmenu, setpopsign }) {
                     </div>
                 </div>
             </div>
-
-
-
             <div class="pricing-plane-area rts-section-gapTop">
                 <div class="container">
                     <div class="row">
@@ -599,7 +596,7 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">Plan de tarification</span>
                                 <h2 class="title">
-                                   Prêt à commencer ? <br />
+                                    Prêt à commencer ? <br />
                                     Nous vous maintiendrons dans le budget.
                                 </h2>
                             </div>
@@ -615,7 +612,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                 <button class="" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Version Pro</button>
                             </li>
                             <li class="save-badge">
-{/*                                 <span>SAVE 25%</span> */}
+                                {/*                                 <span>SAVE 25%</span> */}
                             </li>
                         </ul>
                         <div class="tab-content mt--20" id="myTabContent">
@@ -690,7 +687,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                             </div>
                                         </div>
                                     </div>
-{/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
                                                 <span class="top">Silver</span>
@@ -698,8 +695,8 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     <h4 class="title">$199</h4>
                                                     <span>/month</span>
                                                 </div>
-                                            </div> */}
-{/*                                             <div class="body">
+                                            </div>
+                                            <div class="body">
                                                 <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
 
                                                 <div class="check-wrapper">
@@ -725,44 +722,44 @@ export default function Content({ Showmenu, setpopsign }) {
                                         </div>
                                     </div>
                                 </div>
-                            </div>  */}
-                            // <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            //     <div class="row g-5 mt--10">
-                            //         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                            //             <div class="single-pricing-single-two">
-                            //                 <div class="head">
-                            //                     <span class="top">Basic</span>
-                            //                     <div class="date-use">
-                            //                         <h4 class="title">$Free</h4>
-                            //                         <span>/month</span>
-                            //                     </div>
-                            //                 </div>
-                            //                 <div class="body">
-                            //                     <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
+                            </div>
+                            {/* <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row g-5 mt--10">
+                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="single-pricing-single-two">
+                                            <div class="head">
+                                                <span class="top">Basic</span>
+                                                <div class="date-use">
+                                                    <h4 class="title">$Free</h4>
+                                                    <span>/month</span>
+                                                </div>
+                                            </div>
+                                            <div class="body">
+                                                <p class="para">A premium pricing plan is a pricing <br /> structure that is designed.</p>
 
-                            //                     <div class="check-wrapper">
-                            //                         <div class="check-area">
-                            //                             <i class="fa-solid fa-check"></i>
-                            //                             <p>10,000 Monthly Word Limit</p>
-                            //                         </div>
-                            //                         <div class="check-area">
-                            //                             <i class="fa-solid fa-check"></i>
-                            //                             <p>10+ Templates</p>
-                            //                         </div>
-                            //                         <div class="check-area">
-                            //                             <i class="fa-solid fa-check"></i>
-                            //                             <p>All types of content</p>
-                            //                         </div>
-                            //                         <div class="check-area">
-                            //                             <i class="fa-solid fa-check"></i>
-                            //                             <p>10+ Languages</p>
-                            //                         </div>
-                            //                     </div>
-                            //                     <a href="#" class="pricing-btn">Get Started</a>
-                            //                 </div>
-                            //             </div>
-                            //         </div>
-{/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                                <div class="check-wrapper">
+                                                    <div class="check-area">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>10,000 Monthly Word Limit</p>
+                                                    </div>
+                                                    <div class="check-area">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>10+ Templates</p>
+                                                    </div>
+                                                    <div class="check-area">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>All types of content</p>
+                                                    </div>
+                                                    <div class="check-area">
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>10+ Languages</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="pricing-btn">Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two active">
                                             <div class="head">
                                                 <span class="top">Diamond</span>
@@ -795,8 +792,8 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <a href="#" class="pricing-btn">Get Started</a>
                                             </div>
                                         </div>
-                                    </div> */}
-{/*                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                    </div> 
+                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
                                                 <span class="top">Silver</span>
@@ -829,16 +826,16 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 </div>
                                                 <a href="#" class="pricing-btn">Get Started</a>
                                             </div>
-                                        </div> */}
+                                        </div>
 
-                                    </div>
+                                    </div> 
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div >
 
 
             <div class="rts-faq-area rts-section-gap">
@@ -848,9 +845,9 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">FAQ</span>
                                 <h2 class="title">
-                                   Des questions concernant notre initiative OpenUp ?
-<br />
-                                 Nous avons des réponses ! 
+                                    Des questions concernant notre initiative OpenUp ?
+                                    <br />
+                                    Nous avons des réponses !
                                 </h2>
                                 <p class="disc">
                                     please feel free to reach out to us. We are always happy to assist you and provide any additional.
@@ -864,13 +861,13 @@ export default function Content({ Showmenu, setpopsign }) {
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class={!Colabs1?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs1} aria-controls="collapseOne" onClick={()=>{
+                                            <button class={!Colabs1 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs1} aria-controls="collapseOne" onClick={() => {
                                                 setColabs1(!Colabs1)
                                             }}>
                                                 What is openup content writing tool?
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class={!Colabs1 ? "accordion-collapse collapse" : "accordion-collapse collapsingshow" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs1 ? "accordion-collapse collapse" : "accordion-collapse collapsingshow"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
@@ -878,55 +875,55 @@ export default function Content({ Showmenu, setpopsign }) {
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class={!Colabs2?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs2} aria-controls="collapseOne" onClick={()=>{
+                                            <button class={!Colabs2 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs2} aria-controls="collapseOne" onClick={() => {
                                                 setColabs2(!Colabs2)
                                             }}>
                                                 what languages does it supports?
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class={!Colabs2 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs2 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class={!Colabs3?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs3} aria-controls="collapseOne" onClick={()=>{
+                                            <button class={!Colabs3 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs3} aria-controls="collapseOne" onClick={() => {
                                                 setColabs3(!Colabs3)
                                             }}>
-                                                 What is sEO wirting ai and how do i use it?
+                                                What is sEO wirting ai and how do i use it?
                                             </button>
                                         </h2>
-                                        <div id="collapseOne" class={!Colabs3 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs3 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class={!Colabs4?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs4} aria-controls="collapseOne" onClick={()=>{
+                                            <button class={!Colabs4 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs4} aria-controls="collapseOne" onClick={() => {
                                                 setColabs4(!Colabs4)
                                             }}>
-                                            what languages does it supports?                                            </button>
+                                                what languages does it supports?                                            </button>
                                         </h2>
-                                        <div id="collapseOne" class={!Colabs4 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs4 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class={!Colabs5?"accordion-button collapsed": "accordion-button"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs5} aria-controls="collapseOne" onClick={()=>{
+                                            <button class={!Colabs5 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs5} aria-controls="collapseOne" onClick={() => {
                                                 setColabs5(!Colabs5)
                                             }}>
-                                            Does Openup to write long articles?                                           </button>
+                                                Does Openup to write long articles?                                           </button>
                                         </h2>
-                                        <div id="collapseOne" class={!Colabs5 ? "accordion-collapse collapse" : "accordion-collapse collapse show" }aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div id="collapseOne" class={!Colabs5 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
                                             </div>
                                         </div>
                                     </div>
@@ -951,7 +948,7 @@ export default function Content({ Showmenu, setpopsign }) {
                             {/* <li class="parent">
                                 <a href="log-in.html">Login</a>
                             </li> */}
-                          
+
                             <li class="parent">
                                 <a href="about.html" class="rts-btn btn-primary">Get Started</a>
                             </li>
