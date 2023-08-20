@@ -28,7 +28,7 @@ export default function Header({setpopsign}) {
                                 <div class="right-area">
                                     <ul>
                                         <li>
-                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="https://www.facebook.com/profile.php?id=100095327058255&sk=about"><i class="fa-brands fa-facebook-f"></i></a>
                                         </li>
                                         <li>
                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -50,8 +50,8 @@ export default function Header({setpopsign}) {
                                 </div>
 
                                 <div class="button-area">
-                                    <a href="log-in.html">Login</a>
-                                    <a href="about.html" class="rts-btn btn-primary">Get Started</a>
+                                    <a href="log-in.html">Se connecter</a>
+                                    <a href="about.html" class="rts-btn btn-primary">Démarrer</a>
                                 </div>
                                 <div class="menu-btn d-xl-none d-lg-none d-md-block d-sm-block" id="menu-btn" onClick={()=>{
                                     setpopsign(true)

@@ -35,14 +35,14 @@ export default function Footer() {
                                     </div>
                                     <div class="body">
                                         <ul class="menu">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Community</a></li>
-                                            <li><a href="#">Careers</a></li>
-                                            <li><a href="#">Affiliate Program</a></li>
+                                            <li><a href="#">A propos</a></li>
+                                            <li><a href="#">Communauté</a></li>
+                                            <li><a href="#">Carrières</a></li>
+                                            <li><a href="#">Programme d'affiliation</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="footer-singl-wized">
+                                {/* <div class="footer-singl-wized">
                                     <div class="head">
                                         <h6 class="title">Use Cases</h6>
                                     </div>
@@ -54,20 +54,23 @@ export default function Footer() {
                                             <li><a href="#">For social managers</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div class="footer-singl-wized input-area">
                                     <div class="head">
-                                        <h6 class="title">Contact Info</h6>
+                                        <h6 class="title">Coordonnées de contact</h6>
                                     </div>
                                     <div class="body">
                                         <p class="disc">
-                                            Maxuel Street, Frankfurt <br /> 2589 Germany.
+                                        KOUZOU CONSULTING 
+                                    C/O excellentia Groupe 
+                                    Route de Meyrin 49
+                                        <br />1203 Genève, Suisse 
                                         </p>
                                         <a href="#" class="f-link">
-                                            <h6 class="link">information.mighty.com</h6>
+                                            <h6 class="link">Support@gopdfai.com</h6>
                                         </a>
-                                        <a href="#" class="number">+2858 62359 32159</a>
+                                        {/* <a href="#" class="number">+2858 62359 32159</a> */}
                                     </div>
                                 </div>
 
@@ -80,11 +83,11 @@ export default function Footer() {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="copy-right-two">
-                                <p><a href="#">Reactheme</a> 2023. All Rights Reserved.</p>
+                                <p><a href="https://gando-tech.vercel.app/">Gandotech</a> 2023. Tous droits réservés.</p>
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="#">Tearms</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
+                                        {/* <li><a href="#">Tearms</a></li> */}
+                                        <li><a href="#">Politique de confidentialité</a></li>
                                     </ul>
                                 </div>
                             </div>

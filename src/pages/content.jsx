@@ -15,13 +15,13 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="banner-two-inner-content pb--180 pb_md--180 pb_sm--100 pt--200 pt_md--100 pt_sm--20">
                                 <span class="pre-title">Bienvenue sur Gopdfai</span>
                                 <h1 class="title">
-                                    Meilleure IA pour  <br />
-                                    Discuter <span>Avec vos fichiers Pdf</span>
+                                    IA optimisée, des<br />
+                                    PDF <span>Plus interactifs</span>
                                 </h1>
                                 <p class="disc">
                                     Discuter avec n'importe quel fichier PDF en le téléchargeant et en initiant une conversation.
                                 </p>
-                                <p class="disc">
+                                {/* <p class="disc">
                                     Poser des questions spécifiques ou générales sur le PDF et obtenir des réponses instantanées.
                                 </p>
                                 <p class="disc">
@@ -32,7 +32,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                 </p>
                                 <p class="disc">
                                     Améliorer votre expérience d'apprentissage avec GoPDF en comprenant sans effort les manuels, les polycopiés et les présentations.
-                                </p>
+                                </p> */}
 
                                 <form action="#">
                                     <div class="input-area">
@@ -243,14 +243,13 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M12.7148 6.43359C18.75 6.78516 23.9648 12 24.3164 17.9766C24.375 18.7383 23.7891 19.4414 23.0273 19.5C22.9688 19.5 22.9688 19.5 22.9102 19.5C22.207 19.5 21.5625 18.9141 21.5625 18.1523C21.2109 13.5234 17.168 9.48047 12.5391 9.1875C11.7773 9.1875 11.1914 8.48438 11.25 7.72266C11.25 6.96094 11.9531 6.375 12.7148 6.43359ZM13.125 0.75C22.3828 0.75 30 8.36719 30 17.625C30 18.6797 29.1211 19.5 28.125 19.5C27.0703 19.5 26.25 18.6797 26.25 17.625C26.25 10.418 20.332 4.5 13.125 4.5C12.0703 4.5 11.25 3.67969 11.25 2.625C11.25 1.62891 12.0703 0.75 13.125 0.75ZM10.0781 14.0508C14.4727 14.9297 17.6953 19.3242 16.6406 24.1289C15.9961 27.293 13.418 29.8711 10.2539 30.5156C4.80469 31.6875 0 27.5273 0 22.3125V7.78125C0 7.01953 0.585938 6.43359 1.34766 6.43359H4.16016C4.98047 6.43359 5.56641 7.01953 5.56641 7.78125V22.2539C5.56641 23.7188 6.85547 25.0078 8.4375 25.0078C9.96094 25.0078 11.25 23.7773 11.25 22.2539C11.25 21.082 10.4297 20.0273 9.375 19.6758C8.84766 19.5 8.4375 19.0312 8.4375 18.3867V15.457C8.4375 14.5781 9.19922 13.875 10.0781 14.0508Z" fill="white" />
                                                     </svg>
-
-                                                    Possibilité de discuter avec tous types de fichiers.
+                                                    Discussions tous fichiers
                                                 </button>
                                                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                                     <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M27 2V20C27 20.8438 26.2969 21.5 25.5 21.5C24.6562 21.5 24 20.8438 24 20V2C24 1.20312 24.6562 0.5 25.5 0.5C26.2969 0.5 27 1.20312 27 2ZM2.95312 7.95312L22.5 2V20L16.3125 18.1719C15.8438 20.0938 14.0625 21.5 12 21.5C9.46875 21.5 7.5 19.4844 7.5 17C7.5 16.4844 7.54688 16.0156 7.73438 15.5469L2.95312 14.0938C2.95312 14.8906 2.29688 15.5 1.5 15.5C0.65625 15.5 0 14.8438 0 14V8C0 7.20312 0.65625 6.5 1.5 6.5C2.29688 6.5 2.95312 7.15625 2.95312 7.95312ZM14.1562 17.5156L9.89062 16.2031C9.79688 16.4375 9.75 16.7188 9.75 17C9.75 18.2656 10.7344 19.25 12 19.25C13.0312 19.25 13.9688 18.5 14.1562 17.5156Z" fill="#3F3EED" />
                                                     </svg>
-                                                    Possibilité de pouvoir uploader plusieurs fichiers PDF et de les comparer.</button>
+                                                    Comparer fichiers PDF.</button>
                                                 <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                                                     <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M22.5 0.5C23.2969 0.5 24 1.20312 24 2V18.5C24 20.1875 22.6406 21.5 21 21.5H3C1.3125 21.5 0 20.1875 0 18.5V5C0 4.20312 0.65625 3.5 1.5 3.5H3V17.75C3 18.1719 3.32812 18.5 3.75 18.5C4.125 18.5 4.5 18.1719 4.5 17.75V2C4.5 1.20312 5.15625 0.5 6 0.5H22.5ZM12.75 18.5C13.125 18.5 13.5 18.1719 13.5 17.75C13.5 17.375 13.125 17 12.75 17H8.25C7.82812 17 7.5 17.375 7.5 17.75C7.5 18.1719 7.82812 18.5 8.25 18.5H12.75ZM12.75 14C13.125 14 13.5 13.6719 13.5 13.25C13.5 12.875 13.125 12.5 12.75 12.5H8.25C7.82812 12.5 7.5 12.875 7.5 13.25C7.5 13.6719 7.82812 14 8.25 14H12.75ZM20.25 18.5C20.625 18.5 21 18.1719 21 17.75C21 17.375 20.625 17 20.25 17H15.75C15.3281 17 15 17.375 15 17.75C15 18.1719 15.3281 18.5 15.75 18.5H20.25ZM20.25 14C20.625 14 21 13.6719 21 13.25C21 12.875 20.625 12.5 20.25 12.5H15.75C15.3281 12.5 15 12.875 15 13.25C15 13.6719 15.3281 14 15.75 14H20.25ZM21 8.75V4.25C21 3.875 20.625 3.5 20.25 3.5H8.25C7.82812 3.5 7.5 3.875 7.5 4.25V8.75C7.5 9.17188 7.82812 9.5 8.25 9.5H20.25C20.625 9.5 21 9.17188 21 8.75Z" fill="#3F3EED" />
@@ -260,7 +259,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                     <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M29.2031 5.42188C29.6719 5.60938 30 6.03125 30 6.5C30 7.01562 29.6719 7.4375 29.2031 7.625L15.9844 12.3594C15.3281 12.5938 14.625 12.5938 13.9688 12.3594L5.0625 9.17188C4.5 9.78125 4.07812 10.5312 3.89062 11.375C4.21875 11.6094 4.5 12.0312 4.5 12.5C4.5 12.9688 4.26562 13.3906 3.9375 13.6719L5.0625 20.6562C5.15625 21.125 4.78125 21.5 4.35938 21.5H1.59375C1.17188 21.5 0.796875 21.125 0.890625 20.6562L2.01562 13.6719C1.6875 13.3906 1.5 12.9688 1.5 12.5C1.5 11.8906 1.875 11.375 2.39062 11.1406C2.57812 10.2031 3 9.35938 3.5625 8.60938L0.75 7.625C0.28125 7.4375 0 7.01562 0 6.5C0 6.03125 0.28125 5.60938 0.75 5.42188L13.9219 0.6875C14.5781 0.453125 15.2812 0.453125 15.9375 0.6875L29.2031 5.42188ZM16.4531 13.7656L23.2969 11.3281L24 18.0312C24 19.9531 19.9219 21.5 15 21.5C9.98438 21.5 6 19.9531 6 18.0312L6.65625 11.3281L13.5 13.7656C13.9688 13.9531 14.4844 14 15 14C15.4688 14 15.9844 13.9531 16.4531 13.7656Z" fill="#3F3EED" />
                                                     </svg>
-                                                    Version de l'application iOS et Android.</button>
+                                                    App iOS/Android.</button>
                                                 {/* <button class="nav-link" id="v-pills-settingsf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsf" type="button" role="tab" aria-controls="v-pills-settingsf" aria-selected="false">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M22.9688 1.92188C24 2.95312 24 4.59375 22.9688 5.625L21.5625 7.03125L16.9688 2.4375L18.375 1.03125C19.4062 0 21.0469 0 22.0781 1.03125L22.9688 1.92188ZM8.0625 11.3438L15.8906 3.51562L20.4844 8.10938L12.6562 15.9375C12.375 16.2188 12 16.4531 11.625 16.5938L7.45312 17.9531C7.03125 18.0938 6.60938 18 6.32812 17.6719C6 17.3906 5.90625 16.9219 6.04688 16.5469L7.40625 12.375C7.54688 12 7.78125 11.625 8.0625 11.3438ZM9 3C9.79688 3 10.5 3.70312 10.5 4.5C10.5 5.34375 9.79688 6 9 6H4.5C3.65625 6 3 6.70312 3 7.5V19.5C3 20.3438 3.65625 21 4.5 21H16.5C17.2969 21 18 20.3438 18 19.5V15C18 14.2031 18.6562 13.5 19.5 13.5C20.2969 13.5 21 14.2031 21 15V19.5C21 21.9844 18.9844 24 16.5 24H4.5C1.96875 24 0 21.9844 0 19.5V7.5C0 5.01562 1.96875 3 4.5 3H9Z" fill="#3F3EED" />
@@ -277,7 +276,7 @@ export default function Content({ Showmenu, setpopsign }) {
             </div>
 
 
-            <div class="case-area-start index-two rts-section-gap">
+            {/* <div class="case-area-start index-two rts-section-gap">
                 <span class="bg-text">Use Cases</span>
                 <div class="container">
                     <div class="row g-5">
@@ -387,7 +386,7 @@ export default function Content({ Showmenu, setpopsign }) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <div class="rts-clients-area rts-section-gap bg-deam">
@@ -485,7 +484,7 @@ export default function Content({ Showmenu, setpopsign }) {
             </div>
 
 
-            <div class="rts-blog-area rts-section-gapTop">
+            {/* <div class="rts-blog-area rts-section-gapTop">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -588,7 +587,7 @@ export default function Content({ Showmenu, setpopsign }) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div class="pricing-plane-area rts-section-gapTop">
                 <div class="container">
                     <div class="row">
@@ -655,7 +654,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two active">
                                             <div class="head">
-                                                <span class="top">Diamond</span>
+                                                <span class="top">Pro</span>
                                                 <div class="date-use">
                                                     <h4 class="title">10€</h4>
                                                     <span>/month</span>
@@ -687,10 +686,10 @@ export default function Content({ Showmenu, setpopsign }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                    {/* <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                         <div class="single-pricing-single-two">
                                             <div class="head">
-                                                <span class="top">Silver</span>
+                                                <span class="top">ENtrepris</span>
                                                 <div class="date-use">
                                                     <h4 class="title">$199</h4>
                                                     <span>/month</span>
@@ -720,7 +719,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                                 <a href="#" class="pricing-btn">Get Started</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -845,12 +844,12 @@ export default function Content({ Showmenu, setpopsign }) {
                             <div class="title-conter-area">
                                 <span class="pre-title-bg">FAQ</span>
                                 <h2 class="title">
-                                    Des questions concernant notre initiative OpenUp ?
+                                    Des questions concernant notre initiative Gopdfai ?
                                     <br />
                                     Nous avons des réponses !
                                 </h2>
                                 <p class="disc">
-                                    please feel free to reach out to us. We are always happy to assist you and provide any additional.
+                                    N'hésitez pas à nous contacter. Nous sommes toujours ravis de vous aider et de fournir des informations supplémentaires.
                                 </p>
                             </div>
                         </div>
@@ -864,12 +863,12 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <button class={!Colabs1 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs1} aria-controls="collapseOne" onClick={() => {
                                                 setColabs1(!Colabs1)
                                             }}>
-                                                What is openup content writing tool?
+                                                Qu'est-ce que GoPDFAI ?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class={!Colabs1 ? "accordion-collapse collapse" : "accordion-collapse collapsingshow"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                GoPDFAI est une intelligence artificielle qui permet de discuter avec votre fichier PDF de façon rapide, efficace et sans difficulté à chaque instant que vous le souhaitez. Elle vous permet d'économiser énormément de temps.
                                             </div>
                                         </div>
                                     </div>
@@ -878,12 +877,12 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <button class={!Colabs2 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs2} aria-controls="collapseOne" onClick={() => {
                                                 setColabs2(!Colabs2)
                                             }}>
-                                                what languages does it supports?
+                                                Quels sont les fichiers qui sont acceptés par GoPDFAI ?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class={!Colabs2 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Pour l'instant, uniquement des fichiers PDF. Mais dans un futur proche, GoPDFAI pourra accepter tous types de fichiers
                                             </div>
                                         </div>
                                     </div>
@@ -892,12 +891,13 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <button class={!Colabs3 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs3} aria-controls="collapseOne" onClick={() => {
                                                 setColabs3(!Colabs3)
                                             }}>
-                                                What is sEO wirting ai and how do i use it?
+                                                Est-ce que Gopdfai peut parler ma langue ?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class={!Colabs3 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Oui, Gopdfai peut lire des PDF et répondre aux questions dans n'importe quelle langue. Vous pouvez télécharger un PDF dans une langue et poser des questions dans une autre. Le message d'accueil sera dans la langue du PDF.
+                                                Ensuite, Gopdfai répondra dans la langue dans laquelle vous posez la question. Si un message n'est pas dans la langue que vous souhaitez, demandez simplement à Gopdfai de le changer.
                                             </div>
                                         </div>
                                     </div>
@@ -906,11 +906,11 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <button class={!Colabs4 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs4} aria-controls="collapseOne" onClick={() => {
                                                 setColabs4(!Colabs4)
                                             }}>
-                                                what languages does it supports?                                            </button>
+                                                Est-ce que ChatPDF est gratuit ?              </button>
                                         </h2>
                                         <div id="collapseOne" class={!Colabs4 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Gopdfai vous permet de l'utiliser gratuitement avec 3 PDF par jour, chacun pouvant aller jusqu'à 120 pages. Pour davantage, vous pouvez passer au plan Plus pour 10 euros par mois. Pour plus d'informations, consultez la page tarifs.
                                             </div>
                                         </div>
                                     </div>
@@ -919,11 +919,11 @@ export default function Content({ Showmenu, setpopsign }) {
                                             <button class={!Colabs5 ? "accordion-button collapsed" : "accordion-button"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded={Colabs5} aria-controls="collapseOne" onClick={() => {
                                                 setColabs5(!Colabs5)
                                             }}>
-                                                Does Openup to write long articles?                                           </button>
+                                                Est-ce que mes fichiers sont sécurisés ?                                          </button>
                                         </h2>
                                         <div id="collapseOne" class={!Colabs5 ? "accordion-collapse collapse" : "accordion-collapse collapse show"} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                                Gopdfai ne partagera jamais vos fichiers avec quiconque. Ils sont stockés sur un espace de stockage cloud sécurisé et peuvent être supprimés à tout moment.
                                             </div>
                                         </div>
                                     </div>
@@ -950,7 +950,7 @@ export default function Content({ Showmenu, setpopsign }) {
                             </li> */}
 
                             <li class="parent">
-                                <a href="about.html" class="rts-btn btn-primary">Get Started</a>
+                                <a href="about.html" class="rts-btn btn-primary">Démarrer</a>
                             </li>
                         </ul>
                     </nav>
@@ -962,7 +962,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
@@ -976,7 +976,7 @@ export default function Content({ Showmenu, setpopsign }) {
                                 <a href="#">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
